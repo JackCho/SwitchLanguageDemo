@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">切换语言demo</string>
+    <string name="hello_world">你好，少年！欢迎收听android干货分享</string>
+    <string name="switch_language">切换语言</string>
+    <string name="english">英语</string>
+    <string name="chinese">中文</string>
+    <string name="jump">跳转到另一个页面</string>
+
+</resources>

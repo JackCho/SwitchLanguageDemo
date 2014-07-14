@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#151515" >
+
+    <TextView
+        android:id="@+id/clear_cache_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="15dp"
+        android:text="@string/switch_language"
+        android:textColor="#36a315"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/clear_cache_line"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_below="@+id/clear_cache_title"
+        android:background="#36a315" />
+
+    <TextView
+        android:id="@+id/select_english"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/clear_cache_line"
+        android:padding="15dp"
+        android:text="@string/english"
+        android:textColor="@android:color/white"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/clear_cache_line_1"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_below="@+id/select_english"
+        android:background="#121212" />
+
+    <TextView
+        android:id="@+id/select_chinese"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/clear_cache_line_1"
+        android:padding="15dp"
+        android:text="@string/chinese"
+        android:textColor="@android:color/white"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+</RelativeLayout>
